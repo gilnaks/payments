@@ -1,6 +1,6 @@
 FROM php:7.2-apache
 
-COPY payments.php /var/www/html/payments.php
+COPY . /var/www/html
 
 EXPOSE 80
 
